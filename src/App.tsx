@@ -1,7 +1,11 @@
+import Home from './components/home/Home';
+import Why from './components/why/Why';
+
 export default function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <main>
+      <Home />
+      <Why />
+    </main>
   );
 }
