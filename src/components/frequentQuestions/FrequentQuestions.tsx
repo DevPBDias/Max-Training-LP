@@ -1,8 +1,14 @@
-import React from 'react';
+import QuestionCards from './QuestionCards';
+import './styles.css';
 
 function FrequentQuestions() {
   return (
-    <div>FrequentQuestions</div>
+    <section className="question-section">
+      <section className="container-question">
+        <h1 className="title-section">Perguntas frequentes</h1>
+        <QuestionCards />
+      </section>
+    </section>
   );
 }
 

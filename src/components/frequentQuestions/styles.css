@@ -1,0 +1,67 @@
+.question-section {
+ background-image: url('../../assets/questionsBg.png');
+}
+
+.container-question {
+    padding-block: 20%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.title-section {
+    color: #1CA9FF;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.3rem;
+    width: 40%;
+}
+
+.container-question-cards {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-items: center;
+    align-items: center;
+    margin-top: 1.5em;
+}
+
+.question-card {
+    border-radius: 16px;
+    background-color: #052B3D;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-items: center;
+    align-items: center;
+    padding-inline: 2em;
+    margin-top: 1em;
+}
+
+.title-question-card {
+    color: #1CA9FF;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.1rem;
+    padding-top: 2.5em;
+}
+
+.answer-card {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.7rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.1rem;
+    padding-top: 0.5em;
+    padding-bottom: 2.5em;
+}
