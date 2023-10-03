@@ -1,0 +1,82 @@
+.container-pricing {
+    padding-block: 10%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    border-radius: 24px;
+    background-color: #052B3D;
+}
+
+.pricing-section {
+    background-color: #1CA9FF;
+    padding-block: 20%;
+}
+
+.title-price {
+    color: #1CA9FF;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.4rem;
+    padding-top: 1.5em;
+}
+
+.text-price {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 0.3em;
+}
+
+.total-price {
+    color: #F30E0E;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 0.6em;
+}
+
+.total-price span {
+    color: #F30E0E;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 0.6em;
+    text-decoration-line: line-through;
+}
+
+.offer-price {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 0.2em;
+}
+
+.pricing-btn {
+    border-radius: 16px;
+    background: #1CA9FF;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.9rem;
+    text-transform: uppercase;
+    margin-block: 1.5em;
+    padding: 0.4em;
+}
