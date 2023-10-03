@@ -6,7 +6,7 @@ import './styles.css';
 
 function Home() {
   return (
-    <section className="container-home">
+    <section className="home-section">
       <section className="contentContainer">
         <Logo />
         <ContentText />
