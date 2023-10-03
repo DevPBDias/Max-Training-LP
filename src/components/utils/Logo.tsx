@@ -2,7 +2,7 @@ import logoMax from '../../assets/LogoMax.png';
 
 function Logo() {
   return (
-    <img src={ logoMax } alt="Logo" />
+    <img className="logo-home" src={ logoMax } alt="Logo" />
   );
 }
 

@@ -1,8 +1,10 @@
 function ContentText() {
   return (
-    <div>
-      <h1>Desbloqueie seu potencial com o Max Training Performance!</h1>
-      <p>
+    <div className="content-text">
+      <h1 className="title-home">
+        Desbloqueie seu potencial com o Max Training Performance!
+      </h1>
+      <p className="description-home">
         Bem-vindo ao seu caminho para a melhor versão de si mesmo.
         Apresentamos o Max Training Performance,
         um programa de exercícios revolucionário que transformará sua jornada fitness.
