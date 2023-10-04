@@ -13,12 +13,12 @@ function Contact() {
           Entre em contato
         </h1>
         <BtnContact
-          link="https://www.instagram.com/olemidia/"
+          link="https://www.instagram.com/treinadorevertinho_oficial/"
           text="instagram"
           icon={ instagramIcon }
         />
         <BtnContact
-          link="https://www.instagram.com/olemidia/"
+          link="https://wa.me/554195709385"
           text="whatsapp"
           icon={ whatsappIcon }
         />

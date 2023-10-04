@@ -55,7 +55,7 @@
     font-style: normal;
     font-weight: 500;
     line-height: 1rem;
-    padding-top: 1em;
+    padding-top: 1.5em;
 }
 
 .btn {
@@ -72,6 +72,10 @@
     margin-top: 1.5em;
     width: 90%;
     height: 3em;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .bonus-container {
@@ -87,8 +91,8 @@
 .icon-container {
     display: flex;
     flex-flow: row nowrap;
-    padding-top: 1em;
-    gap: 0.3em;
+    padding-top: 1.5em;
+    gap: 0.4em;
     margin: auto;
 }
 
@@ -100,8 +104,10 @@
 .text-icon {
     color: #FFF;
     font-family: 'Poppins', sans-serif;
+    text-align: left;
     font-size: 0.5rem;
     font-style: normal;
     font-weight: 700;
     line-height: 0.6rem;
+    max-width: 4.5em;
 }

@@ -30,12 +30,6 @@
     margin-top: 1.5em;
 }
 
-.card-reservation {
-    width: 413px;
-    height: 413px;
-    background-color: #FD8585;
-    color: #000;
-}
 
 .title-reservation {
     color: #1CA9FF;
@@ -56,4 +50,20 @@
     font-weight: 500;
     line-height: 1rem;
     padding-top: 1.5em;
+}
+
+.card-reservation {
+    position: relative;
+}
+
+.exercises-img {
+    width: 100%;
+}
+
+.name-exercise {
+    position: absolute;
+    top: 78%;
+    left: 10%;
+    transform: translateX(18%);
+    width: 60%;
 }
