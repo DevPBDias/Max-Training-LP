@@ -1,6 +1,6 @@
 .about-section {
     position: relative;
-    height: 1330px;
+    max-height: 1270px;
 }
 
 .background-about {
@@ -9,7 +9,7 @@
 
 .content-about-container {
     position: absolute;
-    top: 8%;
+    top: 4%;
     left: 10%;
     transform: translateX(-14%);
     transform: translateY(14%);

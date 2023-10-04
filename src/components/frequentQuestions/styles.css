@@ -1,5 +1,6 @@
 .question-section {
     position: relative;
+    max-height: 2054px;
 }
 
 .background-questions {
@@ -38,7 +39,6 @@
     flex-flow: column nowrap;
     justify-items: center;
     align-items: center;
-    margin-top: 1.5em;
 }
 
 .question-card {
@@ -60,7 +60,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: 1.1rem;
-    padding-top: 2.5em;
+    padding-top: 2em;
 }
 
 .answer-card {
@@ -72,5 +72,5 @@
     font-weight: 400;
     line-height: 1.1rem;
     padding-top: 0.5em;
-    padding-bottom: 2.5em;
+    padding-bottom: 2em;
 }
