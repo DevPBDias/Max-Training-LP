@@ -1,6 +1,18 @@
+import './styles.css';
+import logoMin from '../../assets/LogoMin.png';
+
 function Footer() {
   return (
-    <div>Footer</div>
+    <footer className="footer-section">
+      <section className="content-container-footer">
+        <img src={ logoMin } alt="logo-Max-Training" className="logo-footer" />
+        <p className="text-footer">
+          Olé Mídia
+          <br />
+          Todos os direitos reservados.
+        </p>
+      </section>
+    </footer>
   );
 }
 

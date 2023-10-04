@@ -1,0 +1,31 @@
+.footer-section {
+    background-color: #052B3D;
+    height: 5.5em;
+}
+
+.content-container-footer {
+    padding-block: 10%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    gap: 1em;
+}
+
+.logo-footer {
+    width: 4.5em;
+    height: 1.7em;
+}
+
+.text-footer {
+    color: #FFF;
+    text-align: left;
+    font-family: 'Archivo', sans-serif;
+    font-size: 0.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0.7rem;
+}
