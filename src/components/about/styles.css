@@ -1,0 +1,44 @@
+.about-section {
+    position: relative;
+    height: 1300px;
+}
+
+.background-about {
+    width: 100%;
+}
+
+.content-about-container {
+    position: absolute;
+    top: 8%;
+    left: 10%;
+    transform: translateX(-14%);
+    transform: translateY(14%);
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    z-index: 1;
+}
+
+.title-about {
+    color: #1CA9FF;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.3rem;
+}
+
+.text-about {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Archivo', sans-serif;
+    font-size: 0.6rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1rem;
+}
