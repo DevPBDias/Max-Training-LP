@@ -1,9 +1,17 @@
 .depoiment-section {
-    background-image: url('../../assets/depoimentBg.png');
+    position: relative;
+}
+
+.background-depoiment {
+    width: 100%;
 }
 
 .depoiment-container {
-    padding-block: 20%;
+    position: absolute;
+    top: 0%;
+    left: 10%;
+    transform: translateX(-14%);
+    transform: translateY(2%);
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
@@ -11,6 +19,11 @@
     align-items: center;
     width: 80%;
     margin: auto;
+    z-index: 1;
+}
+
+.logo-home {
+    margin-top: 1em;
 }
 
 .title-depoiment {
@@ -21,8 +34,8 @@
     font-style: normal;
     font-weight: 700;
     line-height: 1.5rem;
-    margin-bottom: 1.5em;
-    margin-top: 1.5em;
+    padding-top: 1em;
+
 }
 
 .description-depoiment {
@@ -33,7 +46,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 1rem;
-    margin-bottom: 1.5em;
+    padding-top: 1em;
 }
 
 .video-container {
@@ -47,6 +60,6 @@
 .video {
     margin-block: 1em;
     width: 260px;
-    height: 462px;
+    height: 450px;
     background-color: #85E7FD;
 }

@@ -1,11 +1,9 @@
 .footer-section {
     background-color: #052B3D;
-    margin: auto;
 }
 
 .content-container-footer {
-    padding-top: 18%;
-    padding-bottom: 8%;
+    padding-block: 10%;
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;

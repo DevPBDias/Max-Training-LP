@@ -1,9 +1,17 @@
 .question-section {
- background-image: url('../../assets/questionsBg.png');
+    position: relative;
+}
+
+.background-questions {
+    width: 100%;
 }
 
 .container-question {
-    padding-block: 20%;
+    position: absolute;
+    top: 8%;
+    left: 10%;
+    transform: translateX(auto);
+    transform: translateY(auto);
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
@@ -11,6 +19,7 @@
     align-items: center;
     width: 80%;
     margin: auto;
+    z-index: 1;
 }
 
 .title-section {

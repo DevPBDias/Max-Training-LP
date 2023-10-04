@@ -1,9 +1,17 @@
 .home-section {
-    background-image: url('../../assets/homeBg.png');
+    position: relative;
 }
 
-.contentContainer {
-    padding-block: 20%;
+.backgroung-home {
+    width: 100%;
+}
+
+.content-home-container {
+    position: absolute;
+    top: 8%;
+    left: 10%;
+    transform: translateX(auto);
+    transform: translateY(auto);
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
@@ -11,6 +19,7 @@
     align-items: center;
     width: 80%;
     margin: auto;
+    z-index: 1;
 }
 
 .logo-home {
