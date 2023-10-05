@@ -81,3 +81,35 @@
     padding: 0.4em;
     border: none;
 }
+
+@media (max-width: 576px) {
+    .pricing-section {
+        padding-block: 15%;
+    }
+    
+    .title-price {
+        font-size: .95rem;
+        line-height: 1.4rem;
+        padding-top: 1em;
+    }
+    
+    .text-price {
+        font-size: .9rem;
+        margin-top: 0.2em;
+    }
+    
+    .total-price span {
+        font-size: 1.1rem;
+    }
+    
+    .offer-price {
+        font-size: 1.2rem;
+    }
+    
+    .pricing-btn {
+        font-size: 0.6rem;
+        line-height: 1.2rem;
+        margin-block: 1.2em;
+        padding: 0.8em;
+    }
+}

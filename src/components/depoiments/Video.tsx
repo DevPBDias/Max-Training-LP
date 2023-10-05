@@ -1,6 +1,12 @@
-function Video() {
+type IVideoProps = {
+  video: string,
+};
+
+function Video({ video }: IVideoProps) {
   return (
-    <div className="video">Video</div>
+    <video className="video" controls src={ video }>
+      <track default kind="captions" srcLang="pt" />
+    </video>
   );
 }
 

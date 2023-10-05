@@ -5,6 +5,7 @@
 
 .backgroung-home {
     width: 100%;
+    max-height: 100vh;
 }
 
 .content-home-container {
@@ -55,7 +56,7 @@
     font-style: normal;
     font-weight: 500;
     line-height: 1rem;
-    padding-top: 1.5em;
+    padding-top: 1em;
 }
 
 .btn {
@@ -69,7 +70,7 @@
     font-weight: 700;
     line-height: 1.8rem;
     text-transform: uppercase;
-    margin-top: 1.5em;
+    margin-top: 1em;
     width: 90%;
     height: 3em;
     border: none;
@@ -83,7 +84,6 @@
     flex-flow: row nowrap;
     justify-items: center;
     align-self: center;
-    margin-top: 1em;
     width: 100%;
     gap: 0.5em;
 }
@@ -91,7 +91,9 @@
 .icon-container {
     display: flex;
     flex-flow: row nowrap;
-    padding-top: 1.5em;
+    padding-top: .5em;
+    justify-items: center;
+    align-items: center;
     gap: 0.4em;
     margin: auto;
 }
@@ -110,4 +112,128 @@
     font-weight: 700;
     line-height: 0.6rem;
     max-width: 4.5em;
+}
+
+@media (min-width: 1200px) {
+    .home-section {
+        position: relative;
+        max-height: 880px;
+    }
+
+    .logo-home {
+        width: 20%;
+        height: 10%;
+    }
+
+    .content-home-container {
+        top: 10%;
+        left: 10%;
+        width: 80vw;
+        height: 80vh;
+    }
+    
+    .title-home {
+        font-size: 1.3rem;
+        line-height: 2rem;
+    }
+    
+    .description-home {
+        font-size: .6rem;
+        line-height: 1.5rem;
+        padding-inline: 1.5em;
+    }
+    
+    .btn {
+        font-size: .8rem;
+        line-height: 1.7rem;
+        margin-block: 1.5em;
+        width: 40%;
+        height: 2.5em;
+    }
+    
+    .icon-container {
+        gap: 1em;
+    }
+    
+    .icon {
+        width: 1.5em;
+        height: 1.5em;
+    }
+    
+    .text-icon {
+        font-size: .5rem;
+        line-height: 1rem;
+        max-width: 5em;
+    }
+}
+
+@media (max-width: 576px) {
+    .home-section {
+        position: relative;
+        max-height: 100vh;
+    }
+
+    .backgroung-home {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .logo-home {
+        width: 40%;
+        height: 20%;
+    }
+
+    .content-home-container {
+        top: 10%;
+        left: 10%;
+        width: 80vw;
+        height: 80vh;
+        gap: .3em;
+    }
+    
+    .title-home {
+        font-size: .95rem;
+        line-height: 1.5rem;
+    }
+    
+    .description-home {
+        font-size: .55rem;
+        line-height: 1rem;
+        padding-inline: 1.5em;
+    }
+    
+    .btn {
+        font-size: .6rem;
+        line-height: 1.2rem;
+        margin-block: 1.5em;
+        width: 80%;
+        padding-block: 1em;
+    }
+
+    .bonus-container {
+        display: flex;
+        flex-flow: row wrap;
+        justify-items: center;
+        align-self: center;
+    }
+
+    .icon-container {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-items: center;
+        align-items: center;
+        gap: 0.4em;
+        margin: auto;
+    }
+    
+    .icon {
+        width: 1.2em;
+        height: 1.2em;
+    }
+    
+    .text-icon {
+        font-size: .5rem;
+        line-height: 1rem;
+        max-width: 5em;
+    }
 }

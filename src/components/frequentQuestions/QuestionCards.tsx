@@ -26,7 +26,7 @@ function QuestionCards() {
           está seguro e você pode testar o produto sem problema algum."
       />
       <Card
-        title="Como posso pedir reembolso?"
+        title="Como vou receber acesso ao curso?"
         answer="Você vai receber um e-mail da Hotmart com acesso
          logo após a aprovação da compra. Verifique na sua caixa
           de e-mail, spam ou lixo eletrônico. E você também pode

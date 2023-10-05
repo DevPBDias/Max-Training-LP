@@ -81,3 +81,38 @@
     font-weight: 400;
     line-height: 24px;
 }
+
+@media (max-width: 576px) {
+    .contentContainer {
+        padding-block: 15%;
+    }
+    
+    .title-why {
+        font-size: .95rem;
+        line-height: 1.5rem;
+        margin-bottom: 1em;
+    }
+    
+    .card {
+        padding-block: 1.5em;
+        padding-inline: 2em;
+    }
+    
+    .icon-why {
+        width: 2em;
+        height: 2em;
+    }
+    
+    .title-card {
+        font-size: 0.85rem;
+        line-height: 1.1rem;
+    }
+    
+    .content-text-card {
+        font-size: .6rem;
+        line-height: .9rem;
+    }
+}
+
+@media (min-width: 1200px) {
+}
