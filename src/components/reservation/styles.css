@@ -90,6 +90,7 @@
         top: 75%;
         transform: translateX(1%);
         width: 80%;
+        font-size: .8rem;
     }
 
     .btn {
