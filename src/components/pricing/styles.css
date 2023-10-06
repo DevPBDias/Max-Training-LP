@@ -1,14 +1,15 @@
 .container-pricing {
-    padding-block: 10%;
+    padding-top: 5%;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
     justify-items: center;
     align-items: center;
-    width: 80%;
+    width: 75%;
     margin: auto;
     border-radius: 24px;
     background-color: #052B3D;
+    gap: .3em;
 }
 
 .pricing-section {
@@ -82,6 +83,79 @@
     border: none;
 }
 
+@media (min-width: 1200px) {
+    .pricing-section {
+        padding-block: 10%;
+    }
+    
+    .title-price {
+        font-size: 1.3rem;
+        line-height: 1.5rem;
+        padding-top: .5em;
+        padding-inline: .5em;
+    }
+    
+    .text-price {
+        font-size: 1.2rem;
+        margin-top: 0.2em;
+    }
+    
+    .total-price {
+        font-size: 1.5rem;
+    }
+
+    .total-price span {
+        font-size: 1.5rem;
+    }
+    
+    .offer-price {
+        font-size: 2rem;
+    }
+    
+    .pricing-btn {
+        font-size: 0.7rem;
+        line-height: 1.1rem;
+        padding: 1em;
+    }
+}
+
+@media (max-width: 1200px) {
+    .pricing-section {
+        padding-block: 12%;
+    }
+    
+    .title-price {
+        font-size: 1.1rem;
+        line-height: 1.3rem;
+        padding-top: 1em;
+        padding-inline: .5em;
+    }
+    
+    .text-price {
+        font-size: 1rem;
+        margin-top: 0.2em;
+    }
+    
+    .total-price {
+        font-size: 1.3rem;
+    }
+
+    .total-price span {
+        font-size: 1.3rem;
+    }
+    
+    .offer-price {
+        font-size: 1.4rem;
+    }
+    
+    .pricing-btn {
+        font-size: 0.7rem;
+        line-height: 1.1rem;
+        margin-block: 1.2em;
+        padding: 0.8em;
+    }
+}
+
 @media (max-width: 576px) {
     .pricing-section {
         padding-block: 15%;
@@ -89,8 +163,7 @@
     
     .title-price {
         font-size: .95rem;
-        line-height: 1.4rem;
-        padding-top: 1em;
+        line-height: 1.3rem;
     }
     
     .text-price {
@@ -113,7 +186,5 @@
     .pricing-btn {
         font-size: 0.6rem;
         line-height: 1.2rem;
-        margin-block: 1.2em;
-        padding: 0.8em;
     }
 }

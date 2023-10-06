@@ -1,10 +1,14 @@
 import './styles.css';
 import aboutBg from '../../assets/aboutBg.png';
+import aboutBgDesktop from '../../assets/aboutBgDesktop.png';
 
 function About() {
   return (
     <section className="about-section">
-      <img src={ aboutBg } alt="" className="background-about" />
+      <picture>
+        <source srcSet={ aboutBgDesktop } media="(min-width: 1200px)" />
+        <img src={ aboutBg } alt="" className="background-about" />
+      </picture>
       <section className="content-about-container">
         <h2 className="title-about">
           Fala, galerinha!
