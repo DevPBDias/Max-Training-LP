@@ -189,7 +189,7 @@
     }
 }
 
-@media (max-width: 385px) {
+@media (max-width: 500px) {
     .question-section {
         max-height: 2054px;
     }

@@ -70,9 +70,9 @@
     font-weight: 700;
     line-height: 1.8rem;
     text-transform: uppercase;
+    padding: .7em;
     margin-top: 1em;
     width: 90%;
-    height: 3em;
     border: none;
     display: flex;
     justify-content: center;
@@ -229,12 +229,18 @@
     }
 }
 
-@media (max-width: 385px) {
+@media (max-width: 500px) {
     .home-section {
         max-height: 1050px;
     }
 
     .backgroung-home {
         height: 1050px;
+    }
+
+    .btn {
+        font-size: .6rem;
+        line-height: .9rem;
+        margin-block: 1.5em;
     }
 }

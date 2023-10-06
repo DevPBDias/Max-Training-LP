@@ -39,7 +39,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: 1.4rem;
-    width: 70%;
+    width: 80%;
 }
 
 .description-reservation {
@@ -51,7 +51,7 @@
     font-weight: 500;
     line-height: 1rem;
     padding-top: 1.5em;
-    width: 70%;
+    width: 80%;
 }
 
 .card-reservation {
@@ -101,10 +101,6 @@
         font-size: 1.1rem;
         line-height: 1.3rem;
     }
-
-    .btn {
-        width: 40%;
-    }
 }
 
 @media (max-width: 576px) {
@@ -115,5 +111,12 @@
     .title-reservation {
         font-size: .95rem;
         line-height: 1.4rem;
+    }
+
+    .name-exercise {
+        top: 75%;
+        transform: translateX(1%);
+        width: 80%;
+        font-size: .9rem;
     }
 }

@@ -160,3 +160,21 @@
         height: 1250px;
     }
 }
+
+@media (max-width: 500px) {
+    .about-section {
+    }
+    
+    .background-about {
+        width: 100%;
+    }
+
+    .content-about-container {
+        top: 4%;
+    }
+
+    .text-about {
+        width: 100%;
+    }
+
+}
