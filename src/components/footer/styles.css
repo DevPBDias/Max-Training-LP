@@ -29,3 +29,19 @@
     font-weight: 400;
     line-height: 0.7rem;
 }
+
+@media (max-width: 576px) {
+    .content-container-footer {
+        gap: .7em;
+    }
+    
+    .logo-footer {
+        width: 3em;
+        height: 1.8em;
+    }
+    
+    .text-footer {
+        font-size: 0.4rem;
+        line-height: 0.6rem;
+    }
+}

@@ -53,3 +53,25 @@
     line-height: 48px;
     text-transform: uppercase;
 }
+
+@media (max-width: 576px) {
+    .title-contact {
+        font-size: .95rem;
+        line-height: 1.1rem;
+    }
+    
+    .btn-contact {
+        width: 75%;
+        height: 2em;
+    }
+    
+    .icon-contact {
+        width: 1em;
+        height: 1em;
+    }
+    
+    .text-link {
+        font-size: .7rem;
+        line-height: 1.1rem;
+    }
+}

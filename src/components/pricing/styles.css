@@ -98,6 +98,10 @@
         margin-top: 0.2em;
     }
     
+    .total-price {
+        font-size: 1.1rem;
+    }
+
     .total-price span {
         font-size: 1.1rem;
     }
