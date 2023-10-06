@@ -231,11 +231,16 @@
 
 @media (max-width: 500px) {
     .home-section {
-        max-height: 1050px;
+        max-height: 1150px;
+    }
+
+    .logo-home {
+        width: 8em;
+        height: 4em;
     }
 
     .backgroung-home {
-        height: 1050px;
+        height: 1150px;
     }
 
     .btn {

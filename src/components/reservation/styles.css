@@ -68,6 +68,7 @@
     left: 10%;
     transform: translateX(19%);
     width: 60%;
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -118,5 +119,23 @@
         transform: translateX(1%);
         width: 80%;
         font-size: .9rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .title-cards {
+        font-size: .95rem;
+    }
+    
+    .title-reservation {
+        font-size: .95rem;
+        line-height: 1.4rem;
+    }
+
+    .name-exercise {
+        top: 75%;
+        transform: translateX(1%);
+        width: 80%;
+        font-size: .7rem;
     }
 }
