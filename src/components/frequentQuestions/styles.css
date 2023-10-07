@@ -123,12 +123,16 @@
     .question-card-two {
         width: 31%;
         max-height: 700px;
-        height: 700px;
+        height: 550px;
         display: flex;
         flex-flow:  column nowrap;
         justify-content: space-around;
         justify-items: center;
         align-items: center;
+    }
+
+    .answer-card {
+        line-height: .9rem;
     }
 }
 

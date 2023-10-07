@@ -3,12 +3,16 @@ import Bonus from './Bonus';
 import BuyBtn from '../utils/BuyBtn';
 import ContentText from './ContentText';
 import './styles.css';
-import homeBg from '../../assets/homeBgMobile.png';
+import homeBgMobile from '../../assets/homeBgMobile.png';
+import homeBg from '../../assets/homeBg.png';
 
 function Home() {
   return (
     <section className="home-section">
-      <img src={ homeBg } alt="" className="backgroung-home" />
+      <picture>
+        <source srcSet={ homeBg } media="(min-width: 1200px)" />
+        <img src={ homeBgMobile } alt="" className="background-about" />
+      </picture>
       <section className="content-home-container">
         <Logo />
         <ContentText />
