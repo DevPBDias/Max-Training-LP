@@ -6,6 +6,10 @@ import questionsBgDesktop from '../../assets/bg-desktop/questionsBgDesktop.webp'
 function FrequentQuestions() {
   return (
     <section className="question-section">
+      <section className="container-question">
+        <h1 className="title-section">Perguntas frequentes</h1>
+        <QuestionCards />
+      </section>
       <picture>
         <source
           srcSet={ questionsBgDesktop }
@@ -13,10 +17,6 @@ function FrequentQuestions() {
         />
         <img src={ questionsBg } alt="" className="background-questions" />
       </picture>
-      <section className="container-question">
-        <h1 className="title-section">Perguntas frequentes</h1>
-        <QuestionCards />
-      </section>
     </section>
   );
 }

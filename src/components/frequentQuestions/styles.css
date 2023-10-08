@@ -225,20 +225,30 @@
 
 @media (max-width: 435px) {
     .question-section {
-        max-height: 2254px;
+        max-height: 2054px;
     }
 
     .background-questions {
-        height: 2254px;
+        height: 2054px;
     }
 }
 
 @media (max-width: 400px) {
     .question-section {
-        max-height: 2654px;
+        max-height: 2050px;
     }
 
     .background-questions {
-        height: 2654px;
+        height: 2050px;
+    }
+}
+
+@media (max-width: 350px) {
+    .question-section {
+        max-height: 2300px;
+    }
+
+    .background-questions {
+        height: 2300px;
     }
 }
