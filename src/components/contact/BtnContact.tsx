@@ -7,6 +7,8 @@ type IBtnProps = {
 function BtnContact({ text, icon, link }: IBtnProps) {
   return (
     <a
+      target="_blank"
+      rel="noopener noreferrer"
       href={ link }
       className="btn-contact"
     >
