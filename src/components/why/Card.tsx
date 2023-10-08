@@ -1,4 +1,4 @@
-import check from '../../assets/icons/check.png';
+import check from '../../assets/icons/check.webp';
 
 type ICardProps = {
   title: string,

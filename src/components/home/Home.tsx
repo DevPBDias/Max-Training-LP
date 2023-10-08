@@ -3,8 +3,8 @@ import Bonus from './Bonus';
 import BuyBtn from '../utils/BuyBtn';
 import ContentText from './ContentText';
 import './styles.css';
-import homeBgMobile from '../../assets/homeBgMobile.png';
-import homeBg from '../../assets/homeBg.png';
+import homeBgMobile from '../../assets/bg-mobile/homeBgMobile.webp';
+import homeBg from '../../assets/bg-desktop/homeBg.webp';
 
 function Home() {
   return (

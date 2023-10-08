@@ -1,5 +1,5 @@
 import './styles.css';
-import logoMin from '../../assets/LogoMin.png';
+import logoMin from '../../assets/LogoMin.webp';
 
 function Footer() {
   return (

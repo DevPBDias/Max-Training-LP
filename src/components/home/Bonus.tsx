@@ -1,7 +1,7 @@
 import IconText from '../utils/IconText';
-import lock from '../../assets/icons/lock.png';
-import device from '../../assets/icons/device.png';
-import ticket from '../../assets/icons/ticket.png';
+import lock from '../../assets/icons/lock.webp';
+import device from '../../assets/icons/device.webp';
+import ticket from '../../assets/icons/ticket.webp';
 
 function Bonus() {
   return (

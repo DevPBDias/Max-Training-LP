@@ -1,4 +1,4 @@
-import logoMax from '../../assets/LogoMax.png';
+import logoMax from '../../assets/LogoMax.webp';
 
 function Logo() {
   return (

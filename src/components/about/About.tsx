@@ -1,6 +1,6 @@
 import './styles.css';
-import aboutBg from '../../assets/aboutBg.png';
-import aboutBgDesktop from '../../assets/aboutBgDesktop.png';
+import aboutBg from '../../assets/bg-mobile/aboutBg.webp';
+import aboutBgDesktop from '../../assets/bg-desktop/aboutBgDesktop.webp';
 
 function About() {
   return (

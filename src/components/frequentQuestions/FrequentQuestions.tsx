@@ -1,7 +1,7 @@
 import QuestionCards from './QuestionCards';
 import './styles.css';
-import questionsBg from '../../assets/questionsBg.png';
-import questionsBgDesktop from '../../assets/questionsBgDesktop.png';
+import questionsBg from '../../assets/bg-mobile/questionsBg.webp';
+import questionsBgDesktop from '../../assets/bg-desktop/questionsBgDesktop.webp';
 
 function FrequentQuestions() {
   return (

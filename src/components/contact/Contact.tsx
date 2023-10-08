@@ -1,6 +1,6 @@
 import BtnContact from './BtnContact';
-import instagramIcon from '../../assets/icons/instagram.png';
-import whatsappIcon from '../../assets/icons/zap.png';
+import instagramIcon from '../../assets/icons/instagram.webp';
+import whatsappIcon from '../../assets/icons/zap.webp';
 import './styles.css';
 
 function Contact() {

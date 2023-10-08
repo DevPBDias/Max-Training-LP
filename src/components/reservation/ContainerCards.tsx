@@ -1,7 +1,7 @@
 import Card from './Card';
-import exerciseOne from '../../assets/exerciseOne.png';
-import exerciseTwo from '../../assets/exerciseTwo.png';
-import exerciseThree from '../../assets/exerciseThree.png';
+import exerciseOne from '../../assets/exerciseOne.webp';
+import exerciseTwo from '../../assets/exerciseTwo.webp';
+import exerciseThree from '../../assets/exerciseThree.webp';
 
 function ContainerCards() {
   return (
