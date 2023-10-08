@@ -8,7 +8,7 @@ import Pricing from '../components/pricing/Pricing';
 import Reservation from '../components/reservation/Reservation';
 import Why from '../components/why/Why';
 
-export default function App() {
+export default function MaxTraining() {
   return (
     <main>
       <Home />
