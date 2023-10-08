@@ -1,3 +1,4 @@
+import BuyBtn from '../utils/BuyBtn';
 import './styles.css';
 
 function Pricing() {
@@ -22,11 +23,7 @@ function Pricing() {
         <p className="text-price">
           ou R$ 197,00 à vista
         </p>
-        <button
-          className="pricing-btn"
-        >
-          Começar agora!
-        </button>
+        <BuyBtn content="Começar agora!" />
       </section>
     </section>
   );

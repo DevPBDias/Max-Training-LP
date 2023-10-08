@@ -103,6 +103,14 @@
         font-size: 1.1rem;
         line-height: 1.3rem;
     }
+
+    .name-exercise {
+        font-size: .9rem;
+        line-height: 1rem;
+        top: 75%;
+        transform: translateX(1%);
+        width: 80%;
+    }
 }
 
 @media (max-width: 576px) {

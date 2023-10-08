@@ -137,9 +137,12 @@
 }
 
 @media (max-width: 1200px) {
+    .question-section {
+        max-height: 1804px;
+    }
+
     .background-questions {
-        width: 100%;
-        height: 1704px;
+        height: 1804px;
     }
 
     .answer-card {
@@ -169,18 +172,18 @@
     
 
     .question-card-one, .question-card-two {
-        width: 100%;
+        width: 80%;
         padding: 1em;
     } 
 }
 
-@media (max-width: 576px) {
+@media (max-width: 600px) {
     .question-section {
-        max-height: 1654px;
+        max-height: 1804px;
     }
 
     .background-questions {
-        height: 1654px;
+        height: 1804px;
     }
     
     .container-question {
@@ -212,10 +215,30 @@
 
 @media (max-width: 500px) {
     .question-section {
+        max-height: 1954px;
+    }
+
+    .background-questions {
+        height: 1954px;
+    }
+}
+
+@media (max-width: 435px) {
+    .question-section {
         max-height: 2254px;
     }
 
     .background-questions {
         height: 2254px;
+    }
+}
+
+@media (max-width: 400px) {
+    .question-section {
+        max-height: 2654px;
+    }
+
+    .background-questions {
+        height: 2654px;
     }
 }

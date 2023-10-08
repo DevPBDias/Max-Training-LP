@@ -231,7 +231,11 @@
 
 @media (max-width: 500px) {
     .home-section {
-        max-height: 1150px;
+        max-height: 1250px;
+    }
+
+    .backgroung-home {
+        height: 1250px;
     }
 
     .logo-home {
@@ -239,8 +243,8 @@
         height: 4em;
     }
 
-    .backgroung-home {
-        height: 1150px;
+    .content-home-container {
+        top: 4%;
     }
 
     .btn {

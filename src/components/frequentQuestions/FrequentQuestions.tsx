@@ -7,8 +7,11 @@ function FrequentQuestions() {
   return (
     <section className="question-section">
       <picture>
-        <source srcSet={ questionsBgDesktop } media="(min-width: 1200px)" />
-        <img src={ questionsBg } alt="" className="background-about" />
+        <source
+          srcSet={ questionsBgDesktop }
+          media="(min-width: 1200px)"
+        />
+        <img src={ questionsBg } alt="" className="background-questions" />
       </picture>
       <section className="container-question">
         <h1 className="title-section">Perguntas frequentes</h1>

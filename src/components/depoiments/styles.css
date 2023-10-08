@@ -138,12 +138,15 @@
 }
 
 @media (max-width: 500px) {
+    .depoiment-section {
+        max-height: 2200px;
+    }
+
     .background-depoiment {
-        height: 2100px;
+        height: 2200px;
     }
 
     .title-depoiment {
         font-size: .85rem;
-    
     }
 }
