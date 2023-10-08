@@ -151,7 +151,7 @@
 }
 
 
-@media (max-width: 1200px) {
+@media (max-width: 1199px) {
    .home-section {
         max-height: 800px;
     }

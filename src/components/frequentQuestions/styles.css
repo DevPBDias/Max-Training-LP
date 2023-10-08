@@ -136,7 +136,7 @@
     }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1199px) {
     .question-section {
         max-height: 1804px;
     }
@@ -172,7 +172,7 @@
     
 
     .question-card-one, .question-card-two {
-        width: 80%;
+        width: 100%;
         padding: 1em;
     } 
 }

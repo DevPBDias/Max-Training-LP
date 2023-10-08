@@ -34,6 +34,16 @@
     .footer-section {
         padding-block: 4%;
     }
+
+    .logo-footer {
+        width: 6.5em;
+        height: 2.7em;
+    }
+    
+    .text-footer {
+        font-size: 0.7rem;
+        line-height: 0.9rem;
+    }
 }
 
 @media (max-width: 576px) {
