@@ -19,9 +19,9 @@ function Pricing() {
         <p className="text-price">
           por apenas
         </p>
-        <p className="offer-price">12x de 19,66*</p>
+        <p className="offer-price">12x de 19,86*</p>
         <p className="text-price">
-          ou R$ 197,00 à vista
+          ou R$ 199,00 à vista
         </p>
         <BuyBtn content="Começar agora!" />
       </section>
