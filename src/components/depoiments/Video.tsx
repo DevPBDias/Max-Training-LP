@@ -1,14 +1,14 @@
 type IVideoProps = {
-  video: string,
-  poster: string,
+  linkYoutube: string,
 };
 
-function Video({ video, poster }: IVideoProps) {
+function Video({ linkYoutube }: IVideoProps) {
   return (
-    <video poster={ poster } className="video" controls>
-      <source src={ video } type="video/mp4" />
-      <track default kind="captions" srcLang="pt" />
-    </video>
+    <iframe
+      className="video"
+      src={ `https://www.youtube.com/embed/${linkYoutube}` }
+      title="Video"
+    />
   );
 }
 
