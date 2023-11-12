@@ -20,7 +20,7 @@
     align-items: center;
     width: 80%;
     margin: auto;
-    z-index: 1;
+    z-index: 4;
 }
 
 .title-about {
@@ -72,15 +72,68 @@
         text-align: left;
         width: 70%;
     }
+
+    .bg-mobile-about, .sracth-about, .bg-logo-about {
+        display: none;
+    }
 }
 
 @media (max-width: 1199px) {
     .about-section {
-        max-height: 990px;
+        max-height: 1100px;
+        height: 1100px;
+        background: rgb(5,45,68);
+        background: radial-gradient(circle, rgba(5,45,68,1) 0%, rgba(0,62,141,1) 0%);
     }
     
     .background-about {
-        height: 1000px;
+        display: none;
+    }
+
+    .bg-logo-about {
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        bottom: 0;
+        right: 0;
+    }
+
+    .bg-mobile-about {
+        position: absolute;
+        z-index: 2;
+        width: 100%;
+        bottom: 0;
+        right: 0;
+    }
+
+    .bg-logo {
+        position: absolute;
+        z-index: 1;
+        bottom: 5em;
+        width: 80%;
+        right: 2em;
+    }
+    
+    .bg-everton {
+        position: absolute;
+        z-index: 2;
+        bottom: 0;
+        margin-inline: -20%;
+    }
+
+    .sracth-about {
+        position: absolute;
+        z-index: 3;
+        width: 100%;
+    }
+
+    .bg-scracth {
+        position: absolute;
+        z-index: 3;
+        width: 100%;
+        height: 1100px;
+        top: 0;
+        left: 0;
     }
     
     .content-about-container {
@@ -103,16 +156,44 @@
     .text-about {
         width: 80%;
     }
+
+    .bg-logo {
+        bottom: 5em;
+        right: 3em;
+    }
+}
+
+@media (max-width: 800px) {
+    .about-section {
+        max-height: 1200px;
+        height: 1200px;
+    }
+
+    .bg-logo {
+        bottom: 5em;
+        width: 80%;
+        right: 2em;
+    }
+    
+    .bg-everton {
+        bottom: 0;
+        margin-inline: -20%;
+    }
+
+    .sracth-about {
+        width: 100%;
+    }
+
+    .bg-scracth {
+        width: 100%;
+        height: 1200px;
+    }
 }
 
 @media (max-width: 576px) {
-    .about-section {
-        max-height: 1200px;
-    }
-    
-    .background-about {
-        height: 1200px;
-
+    .bg-everton {
+        width: 70%;
+        margin-inline: -25%;
     }
     
     .content-about-container {
@@ -135,20 +216,39 @@
 }
 
 @media (max-width: 500px) {
-    .about-section {
-        max-height: 1400px;
-    }
-    
-    .background-about {
-        height: 1400px;
-    }
-
     .content-about-container {
-        top: 4%;
+        top: 12%;
     }
 
     .text-about {
         width: 100%;
     }
 
+}
+
+@media (max-width: 400px) {
+    .content-about-container {
+        top: 10%;
+    }
+
+    .text-about {
+        width: 100%;
+    }
+
+    .bg-everton {
+        width: 80%;
+        margin-inline: -35%;
+    }
+
+    .text-about {
+        font-size: 0.6rem;
+        line-height: .9rem;
+        padding-top: .5em;
+    }
+
+    .bg-logo {
+        bottom: 6em;
+        width: 90%;
+        right: 0.5em;
+    }
 }

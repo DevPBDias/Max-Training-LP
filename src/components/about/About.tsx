@@ -1,14 +1,24 @@
 import './styles.css';
-import aboutBg from '../../assets/bg-mobile/aboutBg.webp';
+import aboutBgMobile from '../../assets/bg-mobile/Everton_Mobile.png';
+import scratchs from '../../assets/bg-mobile/scratchs.png';
+import logo from '../../assets/LogoMax.webp';
 import aboutBgDesktop from '../../assets/bg-desktop/aboutBgDesktop.webp';
 
 function About() {
   return (
     <section className="about-section">
-      <picture>
-        <source srcSet={ aboutBgDesktop } media="(min-width: 1200px)" />
-        <img src={ aboutBg } alt="" className="background-about" />
-      </picture>
+      <div className="bg-mobile-about">
+        <img src={ aboutBgMobile } alt="" className="bg-everton" />
+      </div>
+      <div className="sracth-about">
+        <img src={ scratchs } alt="" className="bg-scracth" />
+      </div>
+      <div>
+        <img src={ aboutBgDesktop } alt="" className="background-about" />
+      </div>
+      <div className="bg-logo-about">
+        <img src={ logo } alt="" className="bg-logo" />
+      </div>
       <section className="content-about-container">
         <h2 className="title-about">
           Fala, galerinha!
