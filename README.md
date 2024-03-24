@@ -1,27 +1,29 @@
-# React + TypeScript + Vite
+# Max Training Performance website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Site de vendas do cliente Max Training em que apresenta o seu trabalho, alguns depoimentos e seus serviços.
 
-Currently, two official plugins are available:
+Veja o site da [Max Training Performancea](https://www.treinadorevertinho.com.br/maxtrainingperformance) em tempo real.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<details><summary>Stack utilizada</summary>
+<ul>
+  <li>Framework: React</li>
+  <li>Linguagem: Javascript, Typescript</li>
+  <li>Estilização: Css3</li>
+</ul>
+</details>
 
-## Expanding the ESLint configuration
+<details><summary>Funcionalidades</summary>
+<ul>
+    <li>Botões que redirecionam para página de vendas do cliente;</li>
+    <li>Visualização de depoimentos de alunos e amigos do cliente;</li>
+</ul>
+</details>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+<details><summary>Aprendizados</summary>
+ <ul>
+  <li>Desenvolver um produto nas diretrizes que o cliente quer e no prazo determinado.</li>
+  <li>Figma mockup</li>
+  <li>Aprofundar conhecimento em responsividade</li>
+  <li>Adequação de tamanho de imagens em divs</li>
+</ul>
+</details>
