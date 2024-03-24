@@ -1,5 +1,7 @@
 # Max Training Performance website
 
+**- Projeto Freelancer**
+
 Site de vendas do cliente Max Training em que apresenta o seu trabalho, alguns depoimentos e seus serviços.
 
 Veja o site da [Max Training Performancea](https://www.treinadorevertinho.com.br/maxtrainingperformance) em tempo real.
